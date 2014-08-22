@@ -10,7 +10,7 @@ module Benchm
     if message.class == Fixnum
       repeat = message
       message = nil
-    elsif message.class != String
+    elsif message.class != String && message
       raise ArgumentError, "No implicit conversion of #{message.class} to String."
     end
     time_1 = Time.now
