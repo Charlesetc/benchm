@@ -3,8 +3,10 @@
 Benchm is the simplest way to time your programs.
 
  • Labels
+
  • Built-in Iteration
- • Default Iteration
+
+ • Set Default Iteration
 
 ## Usage
 
